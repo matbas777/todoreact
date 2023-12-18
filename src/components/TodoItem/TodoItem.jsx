@@ -7,8 +7,8 @@ export function TodoItem({ name, done }) {
       <span className={`${styles.name} ${done ? styles.done : ""}`}>
         {name}
       </span>
-      {!done && <Button>Zrobione</Button>}
-      <Button>Usuń</Button>
+      {!done && <Button>Done</Button>}
+      <Button>Delete</Button>
     </li>
   );
 }

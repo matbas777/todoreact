@@ -11,7 +11,7 @@ export function Form() {
             alert("test");
           }}
         >
-          Dodaj
+          Add
         </Button>
       </form>
     </>
